@@ -88,6 +88,11 @@ google_analytics:
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 
+#### 51la Analytics
+la51_analytics:
+  enable: enable
+  id: 17278963  ## e.g. 17278963 is your 51la analytics ID.
+
 #### Custom Search
 google_cse: 
   enable: false
