@@ -161,5 +161,10 @@ $(document).ready(function(){
 }); 
 </script>
 <% } %>
+<% if (theme.fotorama.enable){ %>
+<link rel="stylesheet" href="<%- config.root %>fotorama/fotorama.css" media="screen" type="text/css">
+<script src="<%- config.root %>fotorama/fotorama.js"></script>
+<%- page.layout %>
+<% } %>
 <%- partial('google_analytics') %>
 <%- partial('la51_analytics') %>

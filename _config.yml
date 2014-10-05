@@ -102,3 +102,15 @@ google_cse:
 #### Standard Search
 standard_search: 
   engine: 'baidu'  ## possible enum: false/google/baidu. set to false if you want to hide the default search box
+
+#### fotorama in index page
+fotorama:
+  enable: false ## true to enable fotorama in index page
+  fit: 'cover' ## Can be 'contain', 'cover', 'scaledown', 'none'
+  nav: 'thumbs' ## Can be 'dots', 'thumbs', false
+  transition: 'slide' ## Can be 'slide', 'crossfade', 'dissolve'
+  autoplay: false ## Can be true or false
+  photos:
+    - "http://s.fotorama.io/1.jpg"
+    - "http://s.fotorama.io/2.jpg"
+## http://fotorama.io/
