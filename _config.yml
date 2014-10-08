@@ -110,7 +110,9 @@ fotorama:
   nav: 'thumbs' ## Can be 'dots', 'thumbs', false
   transition: 'slide' ## Can be 'slide', 'crossfade', 'dissolve'
   autoplay: false ## Can be true or false
+  loop: true ## Can be true or false
+  baseurl: '' ## base url will be prefixed to photo url, both show and thumb
   photos:
-    - "http://s.fotorama.io/1.jpg"
+    - { show: "http://s.fotorama.io/1.jpg", thumb: "http://s.fotorama.io/1.jpg" }
     - "http://s.fotorama.io/2.jpg"
 ## http://fotorama.io/
